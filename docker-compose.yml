@@ -1,0 +1,14 @@
+version: '3'
+services:
+  sreracha:
+    build: ./sreracha
+    ports:
+     - "80:80"
+    environment:
+     - REDIS_URL=redis://redis_db:6379
+    depends_on:
+      - redis_db
+
+  redis_db:
+    image: redis:alpine
+    hostname: redis_db

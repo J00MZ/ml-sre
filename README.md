@@ -25,7 +25,7 @@ The file producing the bug is `sreracha.go` and line of code is [42]("https://en
 The sreracha application seems to be trying to run version of the FizzBuzz programming challenge.  
 However, by the output we can see in [this]("/tuboencabulate.png") screenshot we can see a major bug in the code that results in output different than the rules.  
   
-Here are the results of [this]("/fizzbuzz.py") simple Python fizzbuzz implementation that receives an integer parameter maximum until which to run the FizzBuzz rules.
+Here are the results of [this](/fizzbuzz.py) simple Python fizzbuzz implementation that receives an integer parameter maximum until which to run the FizzBuzz rules.
 
 ```
 ./fizzbuzz.py 32

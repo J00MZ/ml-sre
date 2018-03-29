@@ -63,4 +63,4 @@ fizzbuzz
 
 However, in the `sreracha` app we can see this output: `SET 15 Fizz: OK` which should be FizzBuzz since it divides by both 3 and 5.  
 
-This seems to show that the logic of the app was implemented by first checking if the number is divisible by three and immeidately printing "Fizz" if that is true instead of checking if it *_ALSO_* divides by 5 and then should merit the output `FizzBuzz`
+This seems to show that the logic of the app was implemented by first checking if the number is divisible by three and immediately printing "Fizz" if that is true instead of checking if it *_ALSO_* divides by 5 and then should merit the output `FizzBuzz`

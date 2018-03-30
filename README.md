@@ -39,7 +39,7 @@ However, by the output in [this](/tuboencabulate.png) screenshot there is a bug 
 The erroneous output: `SET 15 Fizz: OK` which according to the rules should output `FizzBuzz` since 15's divisors are both 3 and 5.  
   
 It seems the bug is in the implementation logic of the app.  
-By first checking if the number is divisible by three and immediately printing "Fizz" if that is true.  
+By first checking if the number is divisible by three and immediately printing `Fizz` if that is true.  
 Instead of checking if the number *_ALSO_* divides by 5 and then should merit the output `FizzBuzz`  
   
 Added [here](/fizzbuzz.py) is a strightforward Python fizzbuzz implementation that receives a single integer parameter, the maximum until which to run the FizzBuzz rules.  
@@ -47,7 +47,7 @@ Added [here](/fizzbuzz.py) is a strightforward Python fizzbuzz implementation th
 This is an example run:
 
 ```
-$ ./fizzbuzz.py 32
+$ ./fizzbuzz.py 42
 1
 2
 fizz (sre)
@@ -80,4 +80,14 @@ fizz (sre)
 fizzbuzz (SreRacha!)
 31
 32
+fizz (sre)
+34
+buzz (racha)
+fizz (sre)
+37
+38
+fizz (sre)
+buzz (racha)
+41
+fizz (sre)
 ```

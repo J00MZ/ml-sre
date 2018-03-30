@@ -34,15 +34,17 @@ The file producing the bug is `sreracha.go` and line of code is [42](https://en.
 ## FizzBuzz (SreRacha)
 
 The sreracha application seems to be trying to run version of the FizzBuzz programming challenge.  
-However, by the output in [this](/tuboencabulate.png) screenshot there is a bug in the code that results in output different than the FizzBuzz rules.  
+However, the output in [this](/tuboencabulate.png) screenshot suggests there is a bug in the code that results in output different than the FizzBuzz rules.  
   
-The erroneous output: `SET 15 Fizz: OK` which according to the rules should output `FizzBuzz` since 15's divisors are both 3 and 5.  
+The erroneous output: `SET 15 Fizz: OK` 
+According to the FizzBuzz rules, `15` should output `FizzBuzz` since 15's divisors are both 3 and 5.  
   
 It seems the bug is in the implementation logic of the app.  
 By first checking if the number is divisible by three and immediately printing `Fizz` if that is true.  
 Instead of checking if the number *_ALSO_* divides by 5 and then should merit the output `FizzBuzz`  
   
-Added [here](/fizzbuzz.py) is a strightforward Python fizzbuzz implementation that receives a single integer parameter, the maximum until which to run the FizzBuzz rules.  
+Added [here](/fizzbuzz.py) is a straightforward Python fizzbuzz implementation.  
+The script receives a single integer parameter, the maximum until which to run the FizzBuzz rules.  
   
 This is an example run:
 

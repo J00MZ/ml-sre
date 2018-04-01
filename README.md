@@ -33,7 +33,7 @@ The file producing the bug is `sreracha.go` and line of code is [42](https://en.
 
 ## FizzBuzz (SreRacha)
 
-The sreracha application seems to be trying to run version of the FizzBuzz programming challenge.  
+The sreracha application seems to be trying to run a version of the FizzBuzz programming challenge.  
 However, the output in [this](/tuboencabulate.png) screenshot suggests there is a bug in the code that results in output different than the FizzBuzz rules.  
   
 The erroneous output: `SET 15 Fizz: OK` 

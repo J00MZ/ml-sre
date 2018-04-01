@@ -36,7 +36,7 @@ The file producing the bug is `sreracha.go` and line of code is [42](https://en.
 The sreracha application seems to be trying to run a version of the FizzBuzz programming challenge.  
 However, the output in [this](/tuboencabulate.png) screenshot suggests there is a bug in the code that results in output different than the FizzBuzz rules.  
   
-The erroneous output: `SET 15 Fizz: OK` 
+The erroneous output: `SET 15 Fizz: OK`  
 According to the FizzBuzz rules, `15` should output `FizzBuzz` since 15's divisors are both 3 and 5.  
   
 It seems the bug is in the implementation logic of the app.  

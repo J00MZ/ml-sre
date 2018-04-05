@@ -29,7 +29,7 @@ According to our findings, the sreracha application is a [Go](https://golang.org
 The application code seems to be running the [Fizzbuzz](https://www.tomdalling.com/blog/software-design/fizzbuzz-in-too-much-detail/) exercise!  
 From repeated runs, it seems there is a consistent bug in the code causing a kernel panic at the exact stage when the application gets to number 30.  
 As can be seen in [this](/tuboencabulate.png) screenshot  
-The file producing the bug is `sreracha.go` and line of code is [42](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#The_number_4")  
+The file producing the bug is `sreracha.go` and line of code is `[42](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#The_number_4")`  
 
 ## FizzBuzz (SreRacha)
 

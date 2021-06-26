@@ -3,7 +3,7 @@
 To make Sreracha application work as described in the document the following steps were taken:
 
 - Fixed the apk installs to install clean and update cert store
-- Make the `srearacha` binary executable
+- Make the `sreracha` binary executable
 - Add redis db container
 - Add `REDIS_URL` environment variable to sreracha application Dockerfile
 - Have `sreracha` run as root user instead of www user (since it was expecting privileged port 80)
